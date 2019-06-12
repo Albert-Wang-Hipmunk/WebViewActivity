@@ -1,22 +1,15 @@
 package com.example.mooqoo.webviewactivity
 
 import android.graphics.Bitmap
-import android.net.Uri
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.KeyEvent
 import android.view.View
 import android.webkit.WebResourceRequest
-import android.webkit.WebResourceResponse
 import android.webkit.WebViewClient
 import kotlinx.android.synthetic.main.activity_web_view.*
 import android.webkit.WebView
-import android.widget.ProgressBar
 import android.view.KeyEvent.KEYCODE_BACK
-
-
-
-
 
 class WebViewActivity : AppCompatActivity() {
     companion object {
